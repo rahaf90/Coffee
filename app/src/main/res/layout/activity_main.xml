@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.toshiba_pc.coffee.MainActivity">
+
+
+
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+
+      <ImageView
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:layout_gravity="top"
+          android:adjustViewBounds="false"
+          android:cropToPadding="false"
+          android:scaleType="centerCrop"
+          android:src="@drawable/t_1"
+          android:textAlignment="center"
+          android:visibility="visible" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="2sp"
+                android:paddingBottom="5sp"
+                android:text="Dream Café"
+                android:textAlignment="center"
+                android:textColor="#FFCDD2"
+                android:textSize="60sp"
+                android:textStyle="bold"
+                android:visibility="visible"
+                tools:fontFamily="cursive" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif-monospace"
+                android:paddingLeft="2sp"
+                android:paddingTop="40sp"
+                android:text="take a break ,and drink coffee"
+                android:textColor="#F3E5F5"
+                android:textSize="40sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:paddingLeft="2sp"
+                android:paddingTop="250sp"
+                android:text="open from 7:00AM to 10:00PM"
+                android:textColor="#BBDEFB"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:paddingLeft="2sp"
+                android:text="5690-Dream street"
+                android:textColor="#BBDEFB"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </FrameLayout>
+    </ScrollView>
+
